@@ -112,7 +112,7 @@ public class file_tracer {
 				}break;
 				
 				default:
-					throw new IllegalArgumentException("PLEASE SELECT AN APPROPRIATE OPTION");
+					System.out.println("PLEASE SELECT AN APPROPRIATE OPTION");
 				}
 			
 			}}break;
@@ -126,7 +126,7 @@ public class file_tracer {
 			
 			
 			default:
-				throw new IllegalArgumentException("please enter a valid option");
+				System.out.println("please enter a valid option");
 			}
 			
 			
